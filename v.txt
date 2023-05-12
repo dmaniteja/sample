@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple.com</title>
+    <style>
+        @keyframes siva{
+            0%{color: red;}
+            20%{color: green;}
+            40%{color: blue;}
+            60%{color:deeppink;}
+            80%{color:blueviolet;}
+            100%{color: blue;}
+        }
+        .head{
+            font-size:50px;
+            color:deeppink;
+            font-weight:bold;
+            animation-name: siva;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        body{
+            margin:0 auto;      
+            background-position:center;
+            background-size:contain;
+        }
+        .menu{
+            position:sticky;
+            top:0;
+            background-color:cornflowerblue;
+            padding: 5px 0px 5px;
+            color:white;
+            margin:0 auto;
+            
+            overflow:hidden;
+        }
+        .menu a{
+            float:left;
+            color:white;
+            text-align: center;
+            padding: 15px 60px;
+            text-decoration: none;
+        }
+        .menu-log{
+            float:right;
+            right:auto;
+        }
+        .body-sec{
+            margin-left: 20px;
+        }
+        table,td,th,hr{
+            border:3px solid purple;
+            background-color:bisque;
+            border-collapse: collapse;}
+        body{background-color:lightgrey}
+        #abc{
+            border-top: 5px solid yellow;
+            border-bottom: 5px solid blue;
+            border-left: 5px solid green;
+            border-right: 5px solid red;
+            width:130px;height:30px}
+        #a{color: green}
+        #b{color:red}
+        #abcd{
+            border-top: 10px solid yellow;
+            border-bottom: 10px solid blue;
+            border-left: 10px solid green;
+            border-right: 10px solid red;
+            width:500px;height:80px}
+        #abcde{
+            color: blue; 
+              }
+        div.a{
+            position:fixed;
+            bottom:0px;
+            right:0px;
+            width:200px;
+            }
+     
+    </style> 
+</head>
+<body>
+    <header>
+        <div class="head">K L UNIVERSITY.COM</div>
+    </header>
+    <nav class="menu">
+        <a href="https://www.kluniversity.in/admissions/?utm_source=bing&utm_medium=SearchCPC&utm_campaign=Brand-2023-AP-TS&utm_term=KL+VJW&msclkid=bbdb1ac5b437123e21d47ec420adfee6">HOME</a>
+        <a href="https://www.bing.com/images/search?view=detailV2&ccid=P%2bvlc904&id=2AED952581C5F81482549D9A606BA9FFD2F5C26E&thid=OIP.P-vlc904t7FNIWogNLzRlAHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2fvmVKjxgWR0Q%2fmaxresdefault.jpg&exph=720&expw=1280&q=kl+university+news&simid=607994510062282236&FORM=IRPRST&ck=957C8400B0C19A29775B35CBA96B0E4D&selectedIndex=12&ajaxhist=0&ajaxserp=0">NEWS</a>
+        <a href="https://www.kluniversity.in/">NOTIFICATION</a>
+        <a href="./klu image 4.jpg">COLLEGE<br> PHOTOS</a>
+        <a href="https://www.kluniversity.in/admissions/?utm_source=bing&utm_medium=SearchCPC&utm_campaign=Brand-2023-AP-TS&utm_term=KL+VJW&msclkid=bbdb1ac5b437123e21d47ec420adfee6">ABOUT US</a>
+        <div class="menu-log"><a href="http://biometrics.kluniversity.in/COSEC/Login">login</a></div>
+    </nav>
+    <main class="body_sec">
+        <section id="content">
+            <hr><hr>
+    <div><center><img src="./klu image 1.jpg"alt="klu image" id="abcd"></center></div>
+    <div>
+        <marquee>
+        <img src="./klu image 5.jpg"width="800px">
+        <img src="./klu image 6.jpg"width="800px">
+        <img src="./klu image 7.jpg"width="800px">
+        </marquee>
+    </div>
+    <h1 id="b"><center><marquee>K L UNIVERSITY......K L UNIVERSITY......K L UNIVERSITY......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS</marquee></center></h1>
+    <table width="100%">
+        <th colspan="7"><h1>STUDENT LIST</h1></th>
+        <tr>
+            <th>S.NO</th>
+            <th>STUDENT NAME</th>
+            <th>GENDER</th>
+            <th>RANK</th>
+            <th>EMAIL</th>
+            <th>SOCIALMEDIA WEBSITE LINK</th>
+            <th>PHOTO</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>a.siva</td>
+            <td>male</td>
+            <td>5</td>
+            <td>abc@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>b.sankar</td>
+            <td>male</td>
+            <td>6</td>
+            <td>def@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>c.vishnu</td>
+            <td>male</td>
+            <td>2</td>
+            <td>ghi@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>d.varun</td>
+            <td>male</td>
+            <td>9</td>
+            <td>jkl@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>e.jaanu</td>
+            <td>female</td>
+            <td>8</td>
+            <td>mno@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image 2.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>f.siva sankar</td>
+            <td>male</td>
+            <td>1</td>
+            <td>pqr@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>g.jaanu</td>
+            <td>female</td>
+            <td>4</td>
+            <td>stu@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image 2.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>h.ravi</td>
+            <td>male</td>
+            <td>3</td>
+            <td>vwx@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>i.ravi sankar</td>
+            <td>male</td>
+            <td>7</td>
+            <td>yza@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>j.jaanu</td>
+            <td>female</td>
+            <td>10</td>
+            <td>bcd@gmail.com</td>
+            <td><a href="https://www.facebook.com/">click me</a></td>
+            <td><img src="face image 2.jpg"alt="face image"height="50px"width="70px"></td>
+        </tr>
+    </table>
+    <a href="https://www.kluniversity.in/admissions/?utm_source=bing&utm_medium=SearchCPC&utm_campaign=Brand-2023-AP-TS&utm_term=KL+VJW&msclkid=bbdb1ac5b437123e21d47ec420adfee6"><img src="klu image 1.jpg"><h2 id="abc">website link</h2></a>
+    <h1 id="a"><center><marquee>K L UNIVERSITY......K L UNIVERSITY......K L UNIVERSITY......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS</marquee></center></h1>
+    <p><h2></h2>KLEEE Application 2023</h2>
+        <h3 id="b">Key points</h3>
+        
+        1. The online application form is for admission into different programmes
+           offered in KL University at Hyderabad, Vijayawada.<br><br>
+        
+        2. Application Fee is Rs.1000/-<br><br>
+        
+        3. Please submit a working E-mail ID for all future correspondence<br><br>
+        
+        4. NRI / PIO / OCI candidates are also eligible to apply.<br><br>
+        
+        5. You are free to edit your application form except Email ID and 
+           mobile number<br><br>
+        
+        6. Your choice of program preference is for statistical purpose only. 
+           Final decision of your choice of program would be finalized at the 
+           time of counseling<br><br>
+        
+        7. Entrance Exam, Counseling and course commencement dates will be 
+        scheduled as per the Government norms<br><br>
+        
+        <h3 id="b">Schedule</h3>KL Deemed to be University provides admission through 
+        a written test and an interview
+        <center><h3 id="a">Steps to Follow</h3>
+        <img src="./klu image 2.png"alt="klu image2"></center>
+        <h1 id="abcde"><center><marquee>K L UNIVERSITY......K L UNIVERSITY......K L UNIVERSITY......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS......K L UNIVERSITYS</marquee></center></h1>
+    </p>
+    <h1>ABOUT CLASS ROOM AC & NON-AC</h1>
+    <img src ="./klu image 3.webp"alt="klu image 3"height="400px"width="100%">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit fuga obcaecati quidem odio cupiditate officia ex pariatur recusandae voluptatum, inventore debitis similique. Quaerat impedit enim cumque veniam nobis error? Fugiat, amet consectetur? Fugiat similique distinctio sequi natus amet ut, corporis odit totam dolorem odio nihil doloribus perspiciatis consectetur sapiente voluptatibus numquam fuga aperiam a magnam ex? Facilis nemo in ab provident omnis, deleniti nisi aliquam dolorum doloribus eum at repudiandae tempora impedit illo laudantium possimus praesentium consequuntur asperiores recusandae porro dolores atque, nobis reprehenderit! Impedit adipisci voluptate animi, obcaecati nostrum nesciunt architecto deserunt odit laudantium eaque incidunt consequuntur molestias mollitia.</p>
+    <div class="a"><img src="./whatsapp image.png"></div>
+    
+        </section>
+    </main>
+</body>
+</html>
